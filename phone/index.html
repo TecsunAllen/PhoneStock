@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/public.css">
+        <style>
+            #page_main{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            #page_main #header{
+                flex:1;
+                background-color: #38f;
+            }
+            #page_main #content{
+                flex:12;
+            }
+        </style>
+    </head>
+
+    <body class="um-vp" ontouchstart>
+        <div id="AppContainer"></div>
+        <script src="js/lib/three.min.js"></script>
+        <script src="js/lib/WGS.js"></script>
+        <script src="js/build/bundle.js"></script>
+    </body>
+    <script>
+    </script>
+</html>
